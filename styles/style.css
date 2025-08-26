@@ -225,6 +225,8 @@
 @media (width >=768px) {
   .header {
     max-block-size: 1024px;
+    padding: 20px 20px 20px 0;
+    margin-bottom: 40px;
   }
 
   .header__theme-menu {
@@ -236,14 +238,10 @@
     margin-bottom: 65px;
   }
 
-  .header__title {
-    margin-left: -3px;
-  }
-
   .header__text {
     grid-column: 3 / 5;
     block-size: min-content;
-    margin: 45px 5px 5px 5px;
+    margin: 45px 0 5px 10px;
   }
 
   .content__section {
@@ -382,7 +380,7 @@
     grid-row: span 2;
   }
 
-  .footer-title {
+  .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
