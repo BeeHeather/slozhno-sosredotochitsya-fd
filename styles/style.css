@@ -25,8 +25,8 @@
 .header__theme-menu {
   grid-column: 4 / 5;
   grid-row: span 1 / 2;
-  align-content: center;
-  justify-items: end;
+  align-self: center;
+  justify-self: flex-end;
 }
 
 .header__theme-menu-list {
@@ -104,11 +104,6 @@
   border-radius: 50%;
   background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
-}
-
-.header__theme-menu {
-  align-self: center;
-  justify-self: flex-end;
 }
 
 .decorated-zone {
