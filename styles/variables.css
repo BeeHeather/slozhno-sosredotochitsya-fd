@@ -6,10 +6,10 @@
 :root {
   --side-padding: 10px;
   --side-padding-desktop: 20px;
-  --bg-image: url("/images/cover-image-dark.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
   --button-color: #ff0070;
-  --button-hover-color: rgba(50, 49, 45, 0.4);
+  --button-hover-color: rgba(255, 0, 112, 0.40);;
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --h2-subtitle-color: #ff0070;
