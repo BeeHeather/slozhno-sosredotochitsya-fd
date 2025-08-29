@@ -222,7 +222,6 @@
   display: grid;
   position: relative;
   block-size: 100vh;
-  min-block-size: 668px;
   align-content: center;
   justify-content: center;
 }
@@ -273,8 +272,8 @@
   }
 
   .lifehack {
-    margin-bottom: 50px;
-    grid-template-rows: repeat(6, min-content);
+    margin-bottom: 30px;
+    grid-template-rows: repeat(7, min-content);
     row-gap: 20px;
   }
 
@@ -337,7 +336,6 @@
 
   .footer {
     padding: var(--side-padding-desktop);
-    min-block-size: 1024px;
   }
 
   .footer__title {
@@ -362,7 +360,6 @@
 
 @media (width >=1024px) and (orientation: landscape) {
   .header {
-    /* min-block-size: 768px; */
     padding: 5px 20px 20px 0;
   }
 
@@ -395,10 +392,6 @@
     column-gap: 10px;
   }
 
-  .lifehack {
-    margin-bottom: 50px;
-  }
-
   .gallery {
     margin-bottom: 35px;
   }
@@ -417,10 +410,6 @@
   .subjects__block {
     grid-column: span 1;
     grid-row: span 2;
-  }
-
-  .footer {
-    min-block-size: 768px;
   }
 
   .footer__title {
